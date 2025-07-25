@@ -1,0 +1,10 @@
+export interface Task {
+    _id: string;
+    taskDefinition: string;
+    customTitle?: string;
+    isCompleted: boolean;
+    value?: number;
+    unit?: string;
+    note?: string;
+}
+
